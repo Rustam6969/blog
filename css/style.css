@@ -1,0 +1,119 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+}
+
+.container {
+	margin: 30px auto;
+	width: 100%;
+	max-width: 980px;
+}
+
+
+.item {
+	background-color: #ededed;
+	padding: 30px;
+	box-shadow: 0 0 250px gray;
+	margin-bottom: 30px;
+}
+
+h2 {
+	margin-top: 4px;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.col-50 {
+	width: 50%;
+}
+
+.add, .edit, .delete, .content {
+	padding: 4px 12px;
+	box-shadow: 0 0 3px rgb(241, 2, 2);
+	border-radius: 4px;
+	display: inline-block;
+	margin-right: 8px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+.add {
+	background-color: #27bf27;
+}
+
+.edit {
+	background-color: #2904f8;
+}
+.content {
+	background-color: aqua;
+}
+
+.delete {
+	background-color: #d60000;
+}
+
+.mb {
+	margin-bottom: 10px;
+}
+
+.mt {
+	margin-top: 10px;
+}
+
+.actions {
+	border-top: 1px solid gray;
+	padding-top: 12px;
+}
+
+.field {
+	margin: 5px 0 15px;
+}
+
+.input, select, option {
+	width: 100%;
+	padding: 5px;
+}
+
+.left-aligned {
+    text-align: justify;
+	font-size: 0.8rem;
+    padding: 0 5px ;
+}
+.book-image{
+	max-width: 200px;
+	width: 100%;
+
+}
+.col-20{
+	width: 25%;
+
+}
+.col-80{
+	width: 75%;
+}
+.mt-0{
+	margin-top: 0px;
+}
+.text-right{
+	text-align: right;
+}
+.add:last-child{
+	margin-right: 0;
+}
+.mr-0{
+	margin-right: 0;
+}
+.remember{
+	
+}
